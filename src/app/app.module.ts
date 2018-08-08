@@ -10,6 +10,9 @@ import { MyMixedBindingComponent } from './my-mixed-binding/my-mixed-binding.com
 import { MyTwoWayBindingComponent } from './my-two-way-binding/my-two-way-binding.component';
 import { NgIfExampleComponent } from './ng-if-example/ng-if-example.component';
 import { NgForExampleComponent } from './ng-for-example/ng-for-example.component';
+import { NgSwitchExampleComponent } from './ng-switch-example/ng-switch-example.component';
+import { NgClassExampleComponent } from './ng-class-example/ng-class-example.component';
+import { NgStyleExampleComponent } from './ng-style-example/ng-style-example.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { NgForExampleComponent } from './ng-for-example/ng-for-example.component
     MyMixedBindingComponent,
     MyTwoWayBindingComponent,
     NgIfExampleComponent,
-    NgForExampleComponent
+    NgForExampleComponent,
+    NgSwitchExampleComponent,
+    NgClassExampleComponent,
+    NgStyleExampleComponent
   ],
   imports: [
     BrowserModule
