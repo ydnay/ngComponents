@@ -8,6 +8,8 @@ import { MyPropertyBindingComponent } from './my-property-binding/my-property-bi
 import { MyEventBindingComponent } from './my-event-binding/my-event-binding.component';
 import { MyMixedBindingComponent } from './my-mixed-binding/my-mixed-binding.component';
 import { MyTwoWayBindingComponent } from './my-two-way-binding/my-two-way-binding.component';
+import { NgIfExampleComponent } from './ng-if-example/ng-if-example.component';
+import { NgForExampleComponent } from './ng-for-example/ng-for-example.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MyTwoWayBindingComponent } from './my-two-way-binding/my-two-way-bindin
     MyPropertyBindingComponent,
     MyEventBindingComponent,
     MyMixedBindingComponent,
-    MyTwoWayBindingComponent
+    MyTwoWayBindingComponent,
+    NgIfExampleComponent,
+    NgForExampleComponent
   ],
   imports: [
     BrowserModule
